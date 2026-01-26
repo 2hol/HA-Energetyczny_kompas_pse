@@ -15,7 +15,7 @@ COLOR_MAPPING = {
     3: "#FF0000"   # Czerwony
 }
 
-SENSOR_VERSION = "0.1.1"  # Wersja z poprawką czasu lokalnego
+SENSOR_VERSION = "0.1.0"  # Wersja z poprawką czasu lokalnego
 
 async def async_setup_entry(hass, entry, async_add_entities):
     """Set up the sensor."""
